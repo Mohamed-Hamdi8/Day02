@@ -182,6 +182,34 @@ namespace Day02
 
             //Console.WriteLine("Binary: " + binary);
             #endregion
+
+            #region 10- Create a program that asks the user to input three points (x1, y1), (x2, y2), and (x3, y3), and determines whether these points lie on a single straight line.
+            //Console.WriteLine("Enter coordinates for Point 1 (x1 y1): ");
+            //Console.Write("x1 : ");
+            //double x1 = double.Parse(Console.ReadLine());
+            //Console.Write("y1 : ");
+            //double y1 = double.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter coordinates for Point 2 (x2 y2): ");
+            //Console.Write("x2 : ");
+            //double x2 = double.Parse(Console.ReadLine());
+            //Console.Write("y2 : ");
+            //double y2 = double.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter coordinates for Point 3 (x3 y3): ");
+            //Console.Write("x3 : ");
+            //double x3 = double.Parse(Console.ReadLine());
+            //Console.Write("y3 : ");
+            //double y3 = double.Parse(Console.ReadLine());
+
+            //double tendencyA = (y2 - y1) / (x2 - x1);
+            //double tendencyB = (y3 - y2) / (x3 - x2);
+
+            //if (tendencyA == tendencyB)
+            //    Console.WriteLine("these points lie on a single straight line.");
+            //else
+            //    Console.WriteLine("these points not lie on a single straight line.");
+            #endregion
         }
         static bool IsPrime(int n)
         {
