@@ -163,7 +163,25 @@ namespace Day02
             //}
             #endregion
 
+            #region 9-   Write a program in C# Sharp to convert a decimal number into binary without using an array.
+            //bool parsed;
+            //int DecimalNumber;
+            //do
+            //{
+            //    Console.Write("Enter Decimal Number : ");
+            //    parsed = int.TryParse(Console.ReadLine(), out DecimalNumber);
+            //} while (!parsed || DecimalNumber <=0);
+            //string binary = "";
 
+            //while (DecimalNumber > 0)
+            //{
+            //    int remainder = DecimalNumber % 2;
+            //    binary = remainder + binary;
+            //    DecimalNumber /= 2;
+            //}
+
+            //Console.WriteLine("Binary: " + binary);
+            #endregion
         }
         static bool IsPrime(int n)
         {
