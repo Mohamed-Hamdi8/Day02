@@ -33,6 +33,21 @@
             //    Console.Write($"{Multi} ");
             //}
             #endregion
+
+            #region 3- Write a program that allows to user to insert number then print all even numbers between 1 to this number
+            //bool parsed;
+            //int number;
+            //do
+            //{
+            //    Console.Write("Enter Number : ");
+            //    parsed = int.TryParse(Console.ReadLine(), out number);
+            //} while (!parsed);
+            //for(int i = 2; i <= number; i++)
+            //{
+            //    if(i%2==0)
+            //    Console.Write($"{i} ");
+            //}
+            #endregion
         }
     }
 }
