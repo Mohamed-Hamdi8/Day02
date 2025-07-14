@@ -139,6 +139,49 @@ namespace Day02
             //    Console.Write($"{NumbersChar[i]} ");
             //}
             #endregion
+
+            #region 8- Write a program in C# Sharp to find prime numbers within a range of numbers.
+            //bool parsed;
+            //int StartNum;
+            //int EndNum;
+            //do
+            //{
+            //    Console.Write("Enter starting number of ranges : ");
+            //    parsed = int.TryParse(Console.ReadLine(), out StartNum);
+            //} while (!parsed || StartNum < 0);
+            //do
+            //{
+            //    Console.Write("Enter ending number of ranges : ");
+            //    parsed = int.TryParse(Console.ReadLine(), out EndNum);
+            //} while (!parsed || EndNum < 0);
+            //for (int i = StartNum; i <= EndNum; i++)
+            //{
+            //    {
+            //        if (IsPrime(i))
+            //        Console.Write($"{i} ");
+            //    }
+            //}
+            #endregion
+
+
+        }
+        static bool IsPrime(int n)
+        {
+            if (n <= 1)
+                return false;
+            if (n == 2)
+                return true;
+            if (n % 2 == 0)
+                return false;
+
+            int boundary = (int)Math.Sqrt(n);
+            for (int i = 3; i <= boundary; i += 2)
+            {
+                if (n % i == 0)
+                    return false;
+            }
+
+            return true;
         }
     }
 }
