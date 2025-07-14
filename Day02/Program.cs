@@ -210,6 +210,30 @@ namespace Day02
             //else
             //    Console.WriteLine("these points not lie on a single straight line.");
             #endregion
+
+            #region 11-  Write a program that prints an identity matrix using for loop, in other words takes a value n from the user and shows the identity table of size n * n.
+            //bool parsed;
+            //int n;
+            //do
+            //{
+            //    Console.Write("Enter the size of the identity matrix (n): ");
+            //    parsed = int.TryParse(Console.ReadLine(), out n);
+            //} while (!parsed || n<0);
+
+            //Console.WriteLine($"\nIdentity matrix of size {n} x {n}:\n");
+
+            //for (int row = 0; row < n; row++)
+            //{
+            //    for (int col = 0; col < n; col++)
+            //    {
+            //        if (row == col)
+            //            Console.Write("1 ");
+            //        else
+            //            Console.Write("0 ");
+            //    }
+            //    Console.WriteLine();
+            //}
+            #endregion
         }
         static bool IsPrime(int n)
         {
