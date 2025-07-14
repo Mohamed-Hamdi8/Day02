@@ -1,4 +1,5 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using System.Xml.Linq;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Day02
 {
@@ -121,6 +122,21 @@ namespace Day02
             //for(int i = Name.Length-1; i >= 0; i--)
             //{
             //    Console.Write($"{Name[i]} ");
+            //}
+            #endregion
+
+            #region 7- Write a program to allow the user to enter int and print the REVERSED of it.
+            //bool parsed;
+            //int number;
+            //do
+            //{
+            //    Console.Write("Enter Number : ");
+            //    parsed = int.TryParse(Console.ReadLine(), out number);
+            //} while (!parsed);
+            //string NumbersChar = number.ToString();
+            //for (int i = NumbersChar.Length - 1; i >= 0; i--)
+            //{
+            //    Console.Write($"{NumbersChar[i]} ");
             //}
             #endregion
         }
