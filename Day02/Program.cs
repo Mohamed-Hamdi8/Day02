@@ -114,6 +114,15 @@ namespace Day02
             //    $"Avarage = {SubjectAvarage} \n" +
             //    $"Percentage = {SubjectPercentage}%");
             #endregion
+
+            #region 6- Write a program to allow the user to enter a string and print the REVERSE of it.
+            //Console.Write("Enter Your Name : ");
+            //string Name = Console.ReadLine();
+            //for(int i = Name.Length-1; i >= 0; i--)
+            //{
+            //    Console.Write($"{Name[i]} ");
+            //}
+            #endregion
         }
     }
 }
