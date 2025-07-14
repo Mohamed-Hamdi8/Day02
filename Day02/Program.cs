@@ -1,4 +1,6 @@
-﻿namespace Day02
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace Day02
 {
     internal class Program
     {
@@ -47,6 +49,70 @@
             //    if(i%2==0)
             //    Console.Write($"{i} ");
             //}
+            #endregion
+
+            #region 4- Write a program that takes two integers then prints the power.
+            //bool parsed;
+            //int number;
+            //int power;
+            //do
+            //{
+            //    Console.Write("Enter Number : ");
+            //    parsed = int.TryParse(Console.ReadLine(), out number);
+            //} while (!parsed);
+            //do
+            //{
+            //    Console.Write("Enter power : ");
+            //    parsed = int.TryParse(Console.ReadLine(), out power);
+            //} while (!parsed);
+            //int result = 1 ;
+            //for(int i = 0; i< power; i++)
+            //{
+            //    result *= number;
+            //}
+            //    Console.WriteLine(result);
+            #endregion
+
+            #region 5- Write a program to enter marks of five subjects and calculate total, average and percentage.
+            //bool parsed;
+            //int mark01;
+            //int mark02;
+            //int mark03;
+            //int mark04;
+            //int mark05;
+            //do
+            //{
+            //    Console.Write("Enter Mark Of Subjec01 : ");
+            //    parsed = int.TryParse(Console.ReadLine(), out mark01);
+            //} while (!parsed);
+            //do
+            //{
+            //    Console.Write("Enter Mark Of Subjec02 : ");
+            //    parsed = int.TryParse(Console.ReadLine(), out mark02);
+            //} while (!parsed);
+            //do
+            //{
+            //    Console.Write("Enter Mark Of Subjec03 : ");
+            //    parsed = int.TryParse(Console.ReadLine(), out mark03);
+            //} while (!parsed);
+            //do
+            //{
+            //    Console.Write("Enter Mark Of Subjec04 : ");
+            //    parsed = int.TryParse(Console.ReadLine(), out mark04);
+            //} while (!parsed);
+            //do
+            //{
+            //    Console.Write("Enter Mark Of Subjec05 : ");
+            //    parsed = int.TryParse(Console.ReadLine(), out mark05);
+            //} while (!parsed);
+
+            //double SubjectMarkTotal = mark01 + mark02 + mark03 + mark04 + mark05;
+            //double SubjectAvarage = SubjectMarkTotal / 5;
+            //double SubjectPercentage = (SubjectMarkTotal/500) * 100;
+
+            //Console.WriteLine($"Total Marks = {SubjectMarkTotal} \n" +
+            //    $"Avarage = {SubjectAvarage} \n" +
+            //    $"Percentage = {SubjectPercentage}%");
             #endregion
         }
     }
